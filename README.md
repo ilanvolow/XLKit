@@ -9,8 +9,8 @@ An iOS/OS X library for creating simple, stupid Excel XML documents (i.e. xlsx)
  While I personally think Excel is one of the very worst things that has happened to data storage since the Y2K mistake of the 1960's,
  I have to acknowledge that Excel is a file format used for interchange of data all over the world.
  
- When I have worked on cross-platform teams where a mac and windows version are simultaneously developed, my windows counterparts have always able use Microsoft's existing Excel library functionality to
- export Simple, Stupid Data to Simple, Stupid Excel Files, the mac implementation I had to write was at a deficit as there was no Simple, Stupid Library for mac library for exporting Simple, Stupid Excel Docuents.
+ When I have worked on cross-platform teams where a mac and windows version were being simultaneously developed, my windows counterparts were always able use Microsoft's existing Excel library functionality to
+ export Simple, Stupid Data to Simple, Stupid Excel Files. The Mac implementation I had to write was at a deficit, however, as there was no Simple, Stupid Library for mac library for exporting Simple, Stupid Excel Docuents.
  In most of these projects, the mac implementation had to default to the strategy of "have the client or customer export to .CSV files, and then import
  with our software." If we were lucky, we could use a third party web service to do the export to Excel.
  
@@ -29,9 +29,8 @@ In writing this code, I hope to make life easier on myriad iOS/OS X developers, 
 
 ###Core Failure Statement
 
-An essential element of the Horizon Methdology is the Core Failure Statement, which defines the most important tasks that the most important target audience
+An essential element of my Horizon Methdology is the Core Failure Statement, which defines the most important tasks that the most important target audience
 requires to validate the existence of the code in the first place. While software should certainly evolve, no change can ever be allowed that fundamentally violates the Core Failure Statement.
-
 
 
 *XLKit is an entire failure if an entry-level Objective-C developer requires more than three hours to create/export a non-styled three column, three row spreadsheet.*
