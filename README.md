@@ -35,7 +35,7 @@ An essential element of my Horizon Methdology is the Core Failure Statement, whi
 requires to validate the existence of the code in the first place. While software should certainly evolve, no change can ever be allowed that fundamentally violates the Core Failure Statement.
 
 
-*XLKit is an entire failure if an entry-level Objective-C developer requires more than three hours to create/export a non-styled three column, three row spreadsheet.*
+*XLKit is a failure if a comptetant Objective-C developer has to spend more than an hour to figure out how to create/export a non-styled three column, three row spreadsheet using the most basic XLKit classes.*
 
 ###Contributions/Feedback
 
