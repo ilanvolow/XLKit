@@ -3,7 +3,7 @@ XLKit
 
 An iOS/OS X library for creating simple, stupid Excel XML documents (i.e. xlsx)
 
- ### Background
+ ## Background
  
  Throughout my career I've encountered many situations where a client/employer has asked for data to be exported into a Simple Stupid Excel file.
  While I personally think Excel is one of the very worst things that has happened to data storage since the Y2K mistake of the 1960's,
@@ -30,6 +30,19 @@ Core Failure Statement
 =====
 
 An essential element of the Horizon Methdology is the Core Failure Statement, which defines the most important tasks that the most important target audience
-requires to validate the existence of the code in the first place.
+requires to validate the existence of the code in the first place. While software should certainly evolve, no change can ever be allowed that fundamentally violates the Core Failure Statement.
 
-XLKit is an entire failure if 
+
+
+* XLKit is an entire failure if an entry-level Objective-C developer requires more than three hours to create/export a non-styled three column, three row spreadsheet. *
+
+
+## Contributions/Feedback
+
+Any feedback however good or bad is entirely encouraged. You're allowed to tell me it's the most wonderful thing you've ever used, and you're allowed to say
+that XLKit is the worst piece of junk you've ever seen and that I should retire from programming and move to Tahiti and paint abstract art for the rest of my life.
+The Horizon Methodology considers Freedom To Criticize Software to be Essential Software Freedom. Any reasonable change will be considered provided it
+stays within the bounds of the Core Failure Statement.
+
+Similarly, any user is welcome and encouraged to contribute code and improve the software and submit back changes, again provided that the changes
+stay within the bounds of the Core Failure Statement.
